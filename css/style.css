@@ -1,0 +1,129 @@
+header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  z-index: 100;}
+
+.img-box{
+width: 100%;
+ }
+
+.img-inner-box{
+	width: 100%;
+	padding-top: 56%;
+}
+
+.home-bg {
+  background-image: url(../images/profile.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container_table {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container_table_cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container_table_cell h2 {
+  color: #fff; /*字顏色*/
+  text-transform: capitalize;
+  font-size: 54px;
+}
+
+.social_icons a {
+  color: #fff; /*字顏色*/
+  display: inline-block;
+  width: 30px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 19px;
+  margin-right: 7px;
+}
+
+.about_me {
+  padding: 100px 0;
+}
+
+.about_me h2{
+  margin-bottom: 75px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.personal-info h3 {
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  text-transform: capitalize;
+}
+
+.personal-info p {
+  color: #767676; /*字顏色*/
+  line-height: 24px;
+  text-align: justify;
+}
+
+.skill {
+  margin: 30px auto;
+}
+
+.skill li {
+  font-size: 15px;
+  line-height: 35px;
+  text-transform: capitalize;
+}
+
+.button-group .download_cv, .button-group .hire_me {
+  display: inline-block;
+}
+
+.button-group .download_cv {
+  margin-right: 18px;
+}
+
+.button-group a {
+  display: block; /*元素顏色*/
+  color: #000;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px 38px;
+  text-transform: capitalize;
+}
+
+.button-group a:hover {
+  background: #000; /*元素顏色*/
+  color: #fff;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
+}
+
