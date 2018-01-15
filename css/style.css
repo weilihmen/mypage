@@ -134,14 +134,21 @@ width: 100%;
   background-color: #f9f9f9;
 }
 
+.my_service h2{
+  margin-top: -20px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 .service-content {
-  float: left;
-  width: 33.33333333%;
   padding: 0 15px;
 }
 
 .service-content i {
-  font-size: 30px;
   line-height: 46px;
 }
 
@@ -158,4 +165,8 @@ width: 100%;
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;}
-  
+
+@media (max-width: 768px){
+  .service-content p {
+  display: none;}
+}
