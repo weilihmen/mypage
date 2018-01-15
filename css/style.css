@@ -29,11 +29,11 @@ width: 100%;
 
 .img-inner-box{
 	width: 100%;
-	padding-top: 56%;
+	padding-top: 95vh;
 }
 
 .home-bg {
-  background-image: url(../images/profile.jpg);
+  background-image: url(../images/wallpaper.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -69,13 +69,17 @@ width: 100%;
 .container_table_cell h2 {
   color: #fff; /*字顏色*/
   text-transform: capitalize;
-  font-size: 54px;
+  font-size: 80px;
+}
+
+.social_icons{
+  padding-top: 20px;
 }
 
 .social_icons a {
   color: #fff; /*字顏色*/
   display: inline-block;
-  width: 30px;
+  width: 60px;
   height: 40px;
   line-height: 40px;
   font-size: 19px;
