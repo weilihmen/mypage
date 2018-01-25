@@ -36,6 +36,18 @@ width: 100%;
 	padding-top: 95vh;
 }
 
+@media (max-width: 992px){
+  .img-inner-box{
+    padding-top: 72vh;
+  }
+}
+
+@media (max-width: 768px){
+  .img-inner-box{
+    padding-top: 60vh;
+  }
+}
+
 .home-bg {
   background-image: url(../images/wallpaper.jpg);
   background-size: cover;
@@ -265,6 +277,12 @@ h3.resume-subtitle {
 
 .col-work {
   padding: 25px 30px;
+}
+
+@media (max-width: 575px){
+  .col-work {
+    padding: 30px 80px;
+  }
 }
 
 .col-work a {
